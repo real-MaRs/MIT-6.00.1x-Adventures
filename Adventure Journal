@@ -9,4 +9,7 @@ Today I installed Python 3.5 and learned how to use the Spyder IDE.f I learned h
 in Python. I made a directory for all the coursework and learned how to create and save files. I also learned how to import libraries such
 as matplotlib and numpy which we will use later in the course.
 
+Week 1 - Python Basics
 
+  1.1 - Introduction: Overview of what the course would be about and the topics that will be covered. I learned that computers are actually
+  REALLY fast, but not fast enough. We can further optimize speeds by being clever and thinking algorithmically.
