@@ -27,6 +27,7 @@ Week 1 - Python Basics
   1.1.3 - Machines: There are fixed program computers and stored program computers. Fixe program can only do 1 thing (calculator, Alan
           Turling's Bombe). A stored program computer can do many things. They store and execute instructions, you can load into it. There's
           also a special program in a stored program computer called an interpreter.
+          Turing Complete - ANYTHING THAT CAN BE COMPUTED IN ONE LANGUAGE CAN BE COMPUTED IN ANY OTHER LANGUAGE.
           
           Basic Machine Architecture
             1. Memory - contains data, sequence of steps; program
@@ -37,3 +38,12 @@ Week 1 - Python Basics
           
           Basic Primitives:
             1. Turing showed you can compute anything using 6 primitives (move left, move right, scan, read, write, do nothing).
+            
+  1.1.4 - Languages: How to combine recipe and machine. A programming language provides set of primitive operations. An expression are
+          more complex, but legal combinations of primitives that the programming language will recognize. Need to follow syntax and
+          static semantics.
+          
+          Errors: syntactic, static semantic, different meaning than what programmer intended.
+          
+          GOAL: learn syntax and semantics of Python, learn how to use those elements to translate "recipes" for solving a problem in
+                form that the computer can do the work for us, build up computational modes of thought(styles, patterns).
