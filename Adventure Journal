@@ -11,5 +11,17 @@ as matplotlib and numpy which we will use later in the course.
 
 Week 1 - Python Basics
 
-  1.1 - Introduction: Overview of what the course would be about and the topics that will be covered. I learned that computers are actually
+1.1 - Introduction to Python
+
+  1.1.1 - Introduction: Overview of what the course would be about and the topics that will be covered. I learned that computers are actually
   REALLY fast, but not fast enough. We can further optimize speeds by being clever and thinking algorithmically.
+  
+  1.1.2 - Knowledge: There are different types of knowledge, declarative and imperative. Declarative is simply a state of fact. Imperative is
+        a recipe or "how-to". Imperative knowledge is how we will get computers to do things for us.
+        
+        An algorithm consists:
+          1. a squence of steps 
+          2. flow of control process that specifies when each step is executed
+          3. a means of determining when to stop
+  
+  1.1.3 - Machines:
