@@ -68,7 +68,7 @@ Week 1 - Python Basics
             - i/j --> result is float
             - i//j --> result is int, quotient without remainder
             - i%j --> remainder
-            - i**j --> it to the power of j
+            - i**j --> i to the power of j
 
   1.1.6 - Variables: Giving names to things is abstraction. Assigning names to expressions allows to reuse value as well as give a better
           meaning of the value. The values are stored in memory and reassigning a used name to a different value loses handle of the old 
@@ -104,6 +104,23 @@ Week 1 - Python Basics
 
   1.2.4 - IDEs: IDE come with a text editor to enter, edit and save programs, a shell, to interact with and run programs, and a
           Integrated debugger.
-
+          
+  1.2.5 - Control Flow: while loop checks a condition, executes its block, and goes back to condition to check again, repeating until
+          condition is false. While loops evaluate a boolean. In a for loop, range is included. break keyword breaks out of the loop.
+          
+          while n<5():
+            print(n)
+            n = n + 1
+         
+          for <variable> in range(<some number>):
+            print(n)
+          
+          range(start, stop, step) ex range(5, 11, 2) --> start at 5, increment by 2 until value = 11
+          
+          for loop: know number of iterations, uses counter, can rewrite into a while
+          while loop:unbounded number of iterations, counter muste be initialized before loop and increment inside loop, cannot rewrite
+                     into a for loop
+                     
+  1.2.6 - Iteration:
 
 
