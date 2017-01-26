@@ -5,7 +5,7 @@ MIT's Online Introduction to Computer Science and Programming in Python Course
 
 Week 0 - Getting started
 
-Today I installed Python 3.5 and learned how to use the Spyder IDE.f I learned how to print things and ran my first Hello World program
+Today I installed Python 3.5 and learned how to use the Spyder IDE. I learned how to print things and ran my first Hello World program
 in Python. I made a directory for all the coursework and learned how to create and save files. I also learned how to import libraries such
 as matplotlib and numpy which we will use later in the course.
 
@@ -47,3 +47,36 @@ Week 1 - Python Basics
           
           GOAL: learn syntax and semantics of Python, learn how to use those elements to translate "recipes" for solving a problem in
                 form that the computer can do the work for us, build up computational modes of thought(styles, patterns).
+                
+  1.1.5 - Types: a program is a sequence of definitions and commands. Programs manipulate data objects. Different types of objects lets 
+          the program do different things to it. Objects can be scalar(cannot be subdivided) or non-scalar(have internal structure that
+          can be accessed).
+          
+          use type() to see type. ex: type(5)
+          SCALAR OBJECTS:
+            - int: integers, 5
+            - float: real numbers, 3.27
+            - bool: Boolean, True and False
+            - NoneType- special, one value: None
+          
+          you can change type of object called CASTING. float() int()
+          
+          operations on INT and FLOAT
+            - i+j
+            - i-j       both ints, return int
+            - i*j       either or both float, return float
+            - i/j --> result is float
+            - i//j --> result is int, quotient without remainder
+            - i%j --> remainder
+            - i**j --> it to the power of j
+
+  1.1.6 - Variables: Giving names to things is abstraction. Assigning names to expressions allows to reuse value as well as give a better meaning of the value. The values are 
+          stored in memory and reassigning a used name to a different value loses handle of the old value.
+          
+  1.1.7 - Operators and Braching: Comparison Operators on INT and float: >, <, >=, <=, ==, !=
+                                  Logic Operators on BOOL: not equal, and, or
+                                  The simpliest branching statement is a conditional. if, else, elif(else if)
+                                  
+          In Python, indentation is very important because each indented set of expressions denotes a block of instructions. Also for
+          visual structure. Branching programs allow us to make choices and do different things. Each state only gets executed once.
+          Maximum time to run the program depends on the length of the program. These programs run in CONSTANT TIME.
