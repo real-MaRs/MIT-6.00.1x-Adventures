@@ -82,11 +82,28 @@ Week 1 - Python Basics
           visual structure. Branching programs allow us to make choices and do different things. Each state only gets executed once.
           Maximum time to run the program depends on the length of the program. These programs run in CONSTANT TIME.
           
+          
+# 1/26/17
 
 1.2 - Core Elements of Programs
 
-  1.2.1 - Bindings: 
+  1.2.1 - Bindings: To swap variables, you should assign a temp variable to store the initial value before swapping. You need to be
+          careful of the order in which you assign variables.
+          
+  1.2.2 - Strings: A String is a sequence of characters, letters, spaces, digits enclosed in quotes. You can add strings together;
+          adding strings togetheris called concatenating strings. The + operator is overloaded because the type of object determines
+          its use. You can overload multiplication with a number value and string to echo the string the number amount of times.
+          len(string) gives length of the string.(includes spaces) Strings are non-scalar objects. string[number] gives the character
+          at index number.
+          
+          Slice String --> string[number:number]
+          
+  1.2.3 - Input/Output: print() --> used to output  str(number) --> casts or changes number to string
+          input(string) ---> prints out string, and waits for user to input something (you can set it to a variable)
+          input always expects a string, use int() to cast the string into an int.
 
+  1.2.4 - IDEs: IDE come with a text editor to enter, edit and save programs, a shell, to interact with and run programs, and a
+          Integrated debugger.
 
 
 
