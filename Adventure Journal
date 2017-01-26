@@ -50,7 +50,7 @@ Week 1 - Python Basics
                 
   1.1.5 - Types: a program is a sequence of definitions and commands. Programs manipulate data objects. Different types of objects lets 
           the program do different things to it. Objects can be scalar(cannot be subdivided) or non-scalar(have internal structure that
-          can be accessed).
+          can be accessed).1
           
           use type() to see type. ex: type(5)
           SCALAR OBJECTS:
@@ -70,8 +70,9 @@ Week 1 - Python Basics
             - i%j --> remainder
             - i**j --> it to the power of j
 
-  1.1.6 - Variables: Giving names to things is abstraction. Assigning names to expressions allows to reuse value as well as give a better meaning of the value. The values are 
-          stored in memory and reassigning a used name to a different value loses handle of the old value.
+  1.1.6 - Variables: Giving names to things is abstraction. Assigning names to expressions allows to reuse value as well as give a better
+          meaning of the value. The values are stored in memory and reassigning a used name to a different value loses handle of the old 
+          value.
           
   1.1.7 - Operators and Braching: Comparison Operators on INT and float: >, <, >=, <=, ==, !=
                                   Logic Operators on BOOL: not equal, and, or
@@ -80,3 +81,12 @@ Week 1 - Python Basics
           In Python, indentation is very important because each indented set of expressions denotes a block of instructions. Also for
           visual structure. Branching programs allow us to make choices and do different things. Each state only gets executed once.
           Maximum time to run the program depends on the length of the program. These programs run in CONSTANT TIME.
+          
+
+1.2 - Core Elements of Programs
+
+  1.2.1 - Bindings: 
+
+
+
+
