@@ -121,6 +121,10 @@ Week 1 - Python Basics
           while loop:unbounded number of iterations, counter muste be initialized before loop and increment inside loop, cannot rewrite
                      into a for loop
                      
-  1.2.6 - Iteration:
-
+  1.2.6 - Iteration: Iteration allows us to extend from simple branching algorithms. Looping structures let us repeat code. The amount of
+          time required depends on value of variables and length of program.
+          
+  1.2.7 - Guess and Check: You can make guesses in an iterative loops until its right or has gone too far. Exhaustive enumberation -
+          guess a value for solution, check if its correct, keep guessing until find solution or guessed all values. Exhaustive
+          enumberation is a good way to generate guesses in an organized manner.
 
