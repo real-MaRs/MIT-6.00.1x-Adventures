@@ -1,10 +1,23 @@
 # MIT-6.00.1x-Adventures
 MIT's Introduction to Computer Science and Programming in Python Course
 
+# 1/31/17
+
 Week 2 - Simple Programs
 
 2.1 - Simple Algorithms
 
-  2.1.1 - So Far...: 
+  2.1.1 - So Far...: Reviewed what loops and if statements are and went over a guess and check loop. Can slice strings with [start:stop:step]
+          Strings are immutable(can't be changed). But strings can be redefined. For loops can loop through strings and numbers.
+          ex: number - for variable in range(5:10): (5,6,7,8,9)
+--> better    string - for char in s: loop through length of string s                      if char == "a" 
+--> meh       string - for index in range(len(s)): loop through length of string s         if index[0] == "a"
+          
+          word = input("Expecting a string input")
+          number = int(input("Expecting a number input")
+          
+          if(char in string) checks if a character is in a string.
+          
+  2.1.2 - Approximate Solutions: 
   
   
