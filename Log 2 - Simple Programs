@@ -27,3 +27,17 @@ Week 2 - Simple Programs
   2.1.3 - Bisection Search: At each stage, cut off half the values. The program ran through a loop less than 15 times to get a really
           good answer whereas the approximate solutions took over 30,000. It takes log n time, less than linear. This algorithm should
           work on any problem that has an ordering property.
+
+  2.1.4 - Floats and Fractions: Floats approximate real numbers and it's useful to understand how.
+          Decimal Number - 302 = 3*10^2 + 0*10^1 + 2*10^0
+          Binary Number - 10011 = 1*2^4 + 0*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 19
+          
+          Internally, computers represent numbers in binary.
+          
+  2.1.5 - Newton-Raphson: It is a general approximation algorithm that lets you find roots of any polynomial. It took around 4 loops to
+          guess the square root or cube root of a number, less than the bisection search.
+          
+          Iterative Algorithms - guess and check methods build on reusing same code, using a loop to generate guesses, check, continue
+                               - Generating guesses: Exhaustive enumeration
+                                                     Bisection search
+                                                     Newton-Raphson (for root finding)
