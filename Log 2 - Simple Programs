@@ -18,7 +18,7 @@ Week 2 - Simple Programs
           
           if(char in string) checks if a character is in a string.
           
-# 2/1/2016          
+# 2/1/17          
           
   2.1.2 - Approximate Solutions: are solutions that are good enough, start with a guess and increment by a small value.
           decreasing increments = slower program, increasing epsilon = less accurate answer. Went over a guess and check algorithm and 
@@ -39,5 +39,28 @@ Week 2 - Simple Programs
           
           Iterative Algorithms - guess and check methods build on reusing same code, using a loop to generate guesses, check, continue
                                - Generating guesses: Exhaustive enumeration
-                                                     Bisection search
-                                                     Newton-Raphson (for root finding)
+                                                    Bisection search
+                                                     Newton-Raphson (for root find
+
+# 2/2/17
+
+  2.2.1 - Decomposition and Abstraction: A function gives you a way to encapsulate pieces of computation. A function gives two important
+          aspects of computational thinking - Decomposition (modularity) and Abstra The idea of abstraction is that once you have built
+          something, you don't need to know what is inside it as long as you know how it works. appropiate input = appropriate answer
+          Decomposition is breaking down a problem into self contained pieces.
+              Modules: - self contained
+                       - used to break up code
+                       - intended to be reuseable
+                       - keep code organized
+                       - keep code coherent
+           
+  2.2.2 - Functions and Scopes: Functions are reusable pieces of code. Functions are not run in a program until they are called or invoked.
+
+          function characteristics: - has a name
+                                    - has parameters (0 or more)
+                                    - has a docstring (optional but recommended)
+                                    - has a body
+          
+          def is a keyword in Python to define a function.
+          
+  2.2.3 - Calling Functions:          
