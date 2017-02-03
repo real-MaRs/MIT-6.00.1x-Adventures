@@ -63,4 +63,18 @@ Week 2 - Simple Programs
           
           def is a keyword in Python to define a function.
           
-  2.2.3 - Calling Functions:          
+  2.2.3 - Calling Functions: A scope is mapping of names to objects. New scope/frame/environment is created when enter a function.
+          Python returns None if there is no return in the function. You can only use return inside a function. Code after the return
+          statement will never be executed. You can pass a function inside parameters of another function.
+          
+  2.2.4 - Keyword Arguments: You can give default parameters by setting a parameter equal to a value. def name(b = false)
+  
+  2.2.5 - Specification: a contract between the implementer of the function and the clients who will use it.
+          Assumptions - conditions that must be met by clients of the functions, typically constraints on parameters.
+          Guarantees - condition that must be met by function, what the function will do if assumptions are right.
+          TL;DR. ALWAYS USE DOCSTRINGS
+          
+  2.2.6 - Iteration vs Recursion: A way to design solutions by divide-and-conquer or decrease-and-conquer. A function calls itself.
+          Must have 1 or more base cases. Went through some examples of recursion with multiplying and factorials. Each recursive call
+          creates its own scope/environment. Bindings of variables are not changed by the recursive call. flow of control passes back to
+          previous scope oncea function returns a value. Same variable name, but different objects in seperate scopes.
