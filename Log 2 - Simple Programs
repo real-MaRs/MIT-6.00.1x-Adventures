@@ -91,3 +91,37 @@ Week 2 - Simple Programs
           
   2.2.10 - Recusion and non-numerics: Went over palidromes using recursion. This is a divide and conquer algorithm because it takes a 
            greater problem and makes it easier (in this case, shorter string) and check if the same applies to the shorter string.
+
+  2.2.11 - Files: A module is a Python file (.py) that is a Python definition of statements. You can import a files within another file.
+           
+           EX: Circle.py
+           
+               pi = 3.14
+               def area(radius):
+                    return pi*r**2
+               def circumferenece(radius):
+                    return 2*pi*r
+                    
+                    
+               import Circle
+               pi = 3
+               
+               // print(pi) = 3
+               // print(circle.pi) = 3.13
+               // print(circle.area(3))
+               // print(circle.circumference(5))
+                 
+            Python has a way to handle files called a file handle. nameHandle = open("kids","w") //w means writing, kids is file name       
+                    
+                    for i in range(2):
+                      name = input("enter a name")         <---    writing directly into a file
+                      nameHandle.write(name)
+                    nameHandle.close()
+                    
+                    nameHandle = open("kids","r")          <--- reading from a file
+                    for line in nameHandle:
+                      print(line)
+                    nameHandle.close()
+                    
+                   
+                    
