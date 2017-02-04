@@ -78,3 +78,16 @@ Week 2 - Simple Programs
           Must have 1 or more base cases. Went through some examples of recursion with multiplying and factorials. Each recursive call
           creates its own scope/environment. Bindings of variables are not changed by the recursive call. flow of control passes back to
           previous scope oncea function returns a value. Same variable name, but different objects in seperate scopes.
+          
+  2.2.7 - Inductive Reasoning: How do we know if our recursive code will work? If it works for the the smallest value of some paramenter
+          and the value + 1, then it will work for all values of that parameter.
+         
+  2.2.8 - Towers of Hanoi: How to move a stack of discs from 1 spike to another without having a bigger disc stack on top of a
+          smaller one. Some problems are a lot easier to solve if you able to think recursively. You can have multiple recursive calls in
+          a function. You need to break a problem down into smaller ones and then use recursion to break it down until you get the answer.
+          
+  2.2.9 - Fibonacci: You can have multiple base cases in a function as well. Went over fibonacci numbers and can tell that you need
+          multiple base cases because you return the sum of more than one recursive call.
+          
+  2.2.10 - Recusion and non-numerics: Went over palidromes using recursion. This is a divide and conquer algorithm because it takes a 
+           greater problem and makes it easier (in this case, shorter string) and check if the same applies to the shorter string.
