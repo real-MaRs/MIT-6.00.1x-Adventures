@@ -8,4 +8,17 @@ Week 3 - Structured Types
 3.1 - Tuples and Lists
 
   3.1.1 - Tuples: A tuple is an ordered sequence of elements, can mix element types. They are immutable and represented with
-          parenthesis. ()
+          parenthesis. ()   You can slice, concantenate, and get index just like strings. Tuples need an extra comma to tell us that
+          is it a tuple and not just an expression. you can swap the value of variables. (x, y) = (y, x)
+
+  3.1.2 - List: A list is similar to a tuple. It is a ordered sequence of elements. Denoted with square brackets [].
+          Biggest difference is that a list is mutable. It can be changed. You can iterate through lists as well
+          
+          L = [2, 1, 3]
+          L[1] = 5
+          
+          L is now [2, 5, 3]
+          
+  3.1.3 - List Operations: append() adds to end of list. Add lists together with +. Use extend to add another list to your list.
+          del(tuple[index]) removes the element from the list. pop() removes last element in list, returns the removed element
+          remove(element) looks for element in list and removes it, only the first one if there are multiple, if not in list, error
