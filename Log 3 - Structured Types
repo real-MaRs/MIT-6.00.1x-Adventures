@@ -1,2 +1,11 @@
 # MIT-6.00.1x-Adventures
 MIT's Introduction to Computer Science and Programming in Python Course
+
+# 2/9/17
+
+Week 3 - Structured Types
+
+3.1 - Tuples and Lists
+
+  3.1.1 - Tuples: A tuple is an ordered sequence of elements, can mix element types. They are immutable and represented with
+          parenthesis. ()
