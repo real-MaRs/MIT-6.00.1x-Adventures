@@ -22,3 +22,13 @@ Week 3 - Structured Types
   3.1.3 - List Operations: append() adds to end of list. Add lists together with +. Use extend to add another list to your list.
           del(tuple[index]) removes the element from the list. pop() removes last element in list, returns the removed element
           remove(element) looks for element in list and removes it, only the first one if there are multiple, if not in list, error
+
+  # 2/11/17
+  
+  3.1.4 - Mutation, Aliasing, Cloning: lists are mutable. Lists are objects in memory. When mulitple variables point to the same list
+          when the list is changed, the value is changed for all variables. You can clone or make a copy or a list by using [:].
+          sort() mutates the list and sorted() makes a new sorted list.
+          
+  
+  3.1.5 - Functions as Objects: Functions are first class objects. You can use functions in arguments called higher order programming.
+          
