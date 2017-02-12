@@ -23,7 +23,7 @@ Week 3 - Structured Types
           del(tuple[index]) removes the element from the list. pop() removes last element in list, returns the removed element
           remove(element) looks for element in list and removes it, only the first one if there are multiple, if not in list, error
 
-  # 2/11/17
+# 2/11/17
   
   3.1.4 - Mutation, Aliasing, Cloning: lists are mutable. Lists are objects in memory. When mulitple variables point to the same list
           when the list is changed, the value is changed for all variables. You can clone or make a copy or a list by using [:].
@@ -32,3 +32,11 @@ Week 3 - Structured Types
   
   3.1.5 - Functions as Objects: Functions are first class objects. You can use functions in arguments called higher order programming.
           
+# 2/12/17
+  
+3.2 - Dictionaries
+  
+  3.2.1 - Quick Review: Overloading is a very nice aspect in Python.
+  
+  3.2.2 - Dictionaries: nice to use one data structure instead of multiple lists. Pairs of data, a key and a value.
+          my_dict = {key: value, key: value, key: value} .keys() gets an interable of all keys, .values() gets all values.
