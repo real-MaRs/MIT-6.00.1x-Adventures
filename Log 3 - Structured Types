@@ -40,3 +40,17 @@ Week 3 - Structured Types
   
   3.2.2 - Dictionaries: nice to use one data structure instead of multiple lists. Pairs of data, a key and a value.
           my_dict = {key: value, key: value, key: value} .keys() gets an interable of all keys, .values() gets all values.
+          
+# 2/13/17
+
+  3.2.3 - Example with a Dictionary: you can use max(value) to get the biggest number in a collection of data. Made a dictionary
+          with a function and then made other functions to return a tuple of the amount of times a word is in a string.
+          
+  3.2.4 - Fibonacci and Dictionary: Using just recursion to find fibonacci numbers can be very inefficient. You need to recalculate the 
+          same value many times. You can use a dictionary to keep track of what you have already computed by by storing the values of fibs
+          This process is called memoization which is keeping a memo of what you have already done.
+          
+  3.2.4 - Global Variables: Can be dangerous to use. They can break the scoping of variables by function call but can also be convenient
+          to keep track of information inside a function. ex: measuring how often fib and fib_effienct are called. You can call a global
+          variable within a function by using the global keyboard in python. It will then be accessible outside of the function.
+          USING DICTIONARIES FOR MEMOIZATION IS AMAZING.
