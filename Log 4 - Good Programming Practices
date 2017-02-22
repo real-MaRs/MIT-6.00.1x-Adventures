@@ -1,10 +1,20 @@
 # MIT-6.00.1x-Adventures
 MIT's Introduction to Computer Science and Programming in Python Course
 
-# 2/13/17
+# 2/21/17
 
 Week 4 - Good Programming Practices
 
 4.1 - Testing and Debugging
   
-  4.1.1 - Programming Challenges: 
+  4.1.1 - Programming Challenges: Going to learn how to deal with bugs and errors. There are many approaches with dealing/avoidng faulty code
+          One is to test the program from errors, another is defensive programming, and lastly, eliminate the source of the bugs. Defensive
+          programming can range from writing docstrings for functions, modularizing programs, or checking conditions of input/output.
+          To debug a program, study events leading to the error. To test/validate a program, you can compare the inputs and outputs.
+  
+  4.1.2 - Classes of Tests: 
+  
+  4.1.5 - Debugging Example: Looking for explanation for incorrect behavior. Print statements are really useful for seeing what is
+          going wrong in a program. You can use binary search to find bugs by going through the middle of your code and printing the results
+          so far. An aliasing bug is when you change a value of one variable but it affects others you did not intend to because they point
+          to the same object.
