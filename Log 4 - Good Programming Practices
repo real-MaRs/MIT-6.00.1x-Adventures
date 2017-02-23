@@ -12,8 +12,25 @@ Week 4 - Good Programming Practices
           programming can range from writing docstrings for functions, modularizing programs, or checking conditions of input/output.
           To debug a program, study events leading to the error. To test/validate a program, you can compare the inputs and outputs.
   
-  4.1.2 - Classes of Tests: 
+  4.1.2 - Classes of Tests: Set yourself up for easy testing and debugging. Break apart your program into modules and use docstrings
+          to make debugging easier. Check if your code runs for syntax errors then check for expected results. Unit testing is
+          validating each piece of program and testing each function separately. After unit testing, do a regression testing to
+          catch reintroduced errors that were previously fixed. After regression testing, go back to unit testing and after
+          integration(whole program) testing, go back to unit testing again.
+          Testing Approaches - intuition, random testing, black box - testing extremes, clear box - going through the flow of the
+          code
   
+  4.1.3 - Bugs: When you find out that your code isn't working as intended, you want to do three things. Isolate the bug(s), get rid
+          of them, and go back and retest until the code works. Overt is code crashes or runs forever, covert returns an incorrect value
+          and are harder to find. Persistent bugs always occur when running a program and intermittent bugs occur only sometimes.
+          We can use defensive programming to make bugs more obvious.
+          
+  4.1.4 - Debugging: Be systematic when looking for a bug. The print statement is a great way to hypothesize where the bug may be. A good
+          way to use the print statement is to put it in the middle of your code so you can isolate which part of the code is faulty.
+          Error messages in the IDE are really helpful or finding what kind of bug you are looking for. Logic errors are alot harder to find.
+          You get returned a value that is incorrect. Try to explain your code and walk through it to find the logic error.
+          Don't just write an entire program and then try to debug it. Write a bit, test it, debug it, and repeat.
+          
   4.1.5 - Debugging Example: Looking for explanation for incorrect behavior. Print statements are really useful for seeing what is
           going wrong in a program. You can use binary search to find bugs by going through the middle of your code and printing the results
           so far. An aliasing bug is when you change a value of one variable but it affects others you did not intend to because they point
