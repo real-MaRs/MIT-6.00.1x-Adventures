@@ -35,3 +35,9 @@ Week 4 - Good Programming Practices
           going wrong in a program. You can use binary search to find bugs by going through the middle of your code and printing the results
           so far. An aliasing bug is when you change a value of one variable but it affects others you did not intend to because they point
           to the same object.
+
+# 2/23/17
+
+4.2 - Exceptions and Assertions
+
+ 4.2.1 - Exceptions: 
