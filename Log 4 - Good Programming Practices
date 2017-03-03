@@ -36,8 +36,15 @@ Week 4 - Good Programming Practices
           so far. An aliasing bug is when you change a value of one variable but it affects others you did not intend to because they point
           to the same object.
 
-# 2/23/17
+# 3/2/17
 
 4.2 - Exceptions and Assertions
 
- 4.2.1 - Exceptions: 
+ 4.2.1 - Exceptions: Use exceptions and assertions to control how a program will react to certain code. Use the try keyword to try to
+         execute a code and the except keyword to handle the exception. You can also use the except keyword to pick out specific 
+         exceptions like ValueError or ZeroDivisionError. You can make multiple exceptions in one try. Else runs if try works without
+         errors and finally always runs after a try/else/exception.
+         
+ 4.2.2 - Exceptions Exmaples: Use try and except to make sure user inputs follow certain rules.
+ 
+ 4.2.3 - Exceptions as Control Flow: 
