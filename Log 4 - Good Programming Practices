@@ -47,4 +47,5 @@ Week 4 - Good Programming Practices
          
  4.2.2 - Exceptions Exmaples: Use try and except to make sure user inputs follow certain rules.
  
- 4.2.3 - Exceptions as Control Flow: 
+ 4.2.3 - Exceptions as Control Flow: use the raise keyword + exception("string message"). manage flow of program by raising your own error
+          
