@@ -30,4 +30,5 @@ Week 5 - Object Oriented Programming
                    __len__(self) = len(self)
                    __str__(self) = print(self)
                    
-  5.1.4 - Classes Examples
+  5.1.4 - Classes Examples: Went over a fraction class as an example. Common methods of a class are get and set methods.
+          Also went over an integer set class to show how we can implement properties of a list to the class.
