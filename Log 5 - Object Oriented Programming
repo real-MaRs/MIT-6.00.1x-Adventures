@@ -2,7 +2,32 @@
 MIT's Introduction to Computer Science and Programming in Python Course
 
 # 3/8/17
-
 Week 5 - Object Oriented Programming
 
 5.1 - Classes and Inheritance
+
+  5.1.1 - Object Oriented Programming: Everything in Python is an object and has a type. Lists, tuples, dictionaries are examples
+          of built in data objects. Creating a class involves naming the class and defining class attributes.
+          Advantages of OOP: bundle data into packages together with procedures that work on them through well defined interfaces
+                             divide and conquer development - implement and test behavior of each class separately
+                                                              increases modularity and decreases complexity
+                             classes make it easy to reuse code - many Python modules define new classes
+                                                                  each class as a separate environment(no collision function names)
+                                                                  inheritance allows subclasses to redefine or extend subset of superclass
+        
+  5.1.2 - Class Instances: Use the class keyword to define a new type. class keyword, class name, class parent parameter(object).
+                           The attributes will be the data and procedures that belong to this class.
+                           Use the special method __init__ to initialize some data attributes. (self, initial data, initial data)
+                           Do not provide argument for the self parameter, Python automatically provides the argument.
+                           
+  5.1.3 - Methods: A method is a procedural attribute. A method is a function that can only be used in its particular class.
+                   The dot operator is used to access any attribute. def methodName(self, data) Use the __str__ method to define
+                   print represention of an object. __str__ is the toString method equivalent in Java.
+                   __sub__(self,other) = self - other
+                   __add__(self, other) = self + other
+                   __eq__(self, other) = self == other
+                   __lt__(self, other) = self < other
+                   __len__(self) = len(self)
+                   __str__(self) = print(self)
+                   
+  5.1.4 - Classes Examples
