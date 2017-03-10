@@ -32,3 +32,16 @@ Week 5 - Object Oriented Programming
                    
   5.1.4 - Classes Examples: Went over a fraction class as an example. Common methods of a class are get and set methods.
           Also went over an integer set class to show how we can implement properties of a list to the class.
+
+  5.1.5 - Why OOP: Can bundle together objects that share common attributes and procedures. Important to know the difference
+          between creating a class and using a class; they are different code for different things. With classes, you can mimic
+          real life and group different objects as the same type. Eg: Different types of cats are still all the same "type"(cat)
+          You should always use get methods to get an attribute instead of gettingthe attribute from the class itself because
+          if the variable name of the attribute changes, you will get an error. It is also cleaner to always utilize a get method to
+          get a specific attribute.
+          
+  5.1.6 - Hierarchies: You can create a hierachy of classes by using subclasses and superclasses. An animal could be the
+          super/parent class of various animal sub/child classes such as dog, cat, bird, etc. Child classes inherit all data
+          and behaviors of the parent class. In the child class, you can add more info, add more behavior, or override behavior.
+          Parent class cannot access a method from a subclass, but child classes can inherit methods from its parent class.
+          You can create a subclass of a subclass as well. eg: person(animal) --> student(person)
