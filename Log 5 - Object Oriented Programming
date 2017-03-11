@@ -48,3 +48,12 @@ Week 5 - Object Oriented Programming
           
   5.1.7 - Class Variables: Class variables are created inside of a class but outside of its methods. These variables will be
           accessible to all the methods within the class. The variable is made outside of the init method.
+  
+  
+5.2 - An Extended Example
+  
+  5.2.1 - Building a Class: Went over a Person class that creates a person with a name, birthday, and last name. Used the imported
+          library, datetime, to set the birthday of the person class. Remember to use docstrings to describe the method or data
+          in the class you are building.
+          
+  5.2.2 - Visualizing the Hierarchy: 
