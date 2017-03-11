@@ -45,3 +45,6 @@ Week 5 - Object Oriented Programming
           and behaviors of the parent class. In the child class, you can add more info, add more behavior, or override behavior.
           Parent class cannot access a method from a subclass, but child classes can inherit methods from its parent class.
           You can create a subclass of a subclass as well. eg: person(animal) --> student(person)
+          
+  5.1.7 - Class Variables: Class variables are created inside of a class but outside of its methods. These variables will be
+          accessible to all the methods within the class. The variable is made outside of the init method.
