@@ -63,4 +63,9 @@ Week 5 - Object Oriented Programming
           and a Gradperson class, defining different people in mit. You can use the pass keyword after defining a class to say that
           there are no expressions associated with the class. You are simply passing through it.
           
-  5.2.4 - Using Inherited Methods: Added professor class into the class hierarchy.         
+  5.2.4 - Using Inherited Methods: Added professor class into the class hierarchy.
+  
+  5.2.5 - Gradebook Example: Use a class that can  hold instances of other classes. (gradebook holding instances of MITpeople)
+  
+  5.2.6 - Generators: any procedure or method with the yield statement is a generator. Generators have a next() method. Yield suspends
+          execution. No more yields means stop iteration error.
