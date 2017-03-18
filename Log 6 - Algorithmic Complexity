@@ -7,4 +7,5 @@ Week 6 - Algorithmic Complexity
 
   6.1 - Computational Complexity
     
-    6.1.1 - Program Efficiency: 
+    6.1.1 - Program Efficiency: Efficiency of a program becomes more important as data becomes larger and larger. A program has
+            separate time and space efficiency. There will usually be a tradeoff between the two.
