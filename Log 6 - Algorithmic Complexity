@@ -8,4 +8,14 @@ Week 6 - Algorithmic Complexity
   6.1 - Computational Complexity
     
     6.1.1 - Program Efficiency: Efficiency of a program becomes more important as data becomes larger and larger. A program has
-            separate time and space efficiency. There will usually be a tradeoff between the two.
+            separate time and space efficiency. There will usually be a tradeoff between the two. Different inputs could change how the
+            program runs. The worst case is generally the most valuable to know when a piece of code runs. The complexity of a code is
+            the orders of growth, how the code runs as the input size gets bigger.
+            
+            Types of Orders of Growth:
+              Constant: Always takes the same amount of time, in general
+              Linear: Grows with the size of the input, double the size of input means double the time it takes
+              Quadratic: Grows by squared/ ^2
+              Logarithmic: Grows with the log of the size of the problem
+              N log n: Not as bad as quadratic and a little better than linear
+              Exponential: grows exponentially with the input
