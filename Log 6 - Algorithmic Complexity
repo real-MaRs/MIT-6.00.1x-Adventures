@@ -19,3 +19,19 @@ Week 6 - Algorithmic Complexity
               Logarithmic: Grows with the log of the size of the problem
               N log n: Not as bad as quadratic and a little better than linear
               Exponential: grows exponentially with the input
+
+    6.1.2 - Big Oh Notation: Big Oh notation measures the upper bound on the asymptotic growth, often called order of growth. Big Oh, O()
+            is used to describe the worst case. With Big Oh, you ignore the constants and multiplicative factors and focus on the dominant
+            term.
+            
+    6.1.3 - Complexity Classes: Examples of Logarithmic complexity would be bisection search or binary search of a list. An example of 
+            linear complexity would be search through a list to find an element.
+            
+    6.1.4 - Analyzing Complexity: The most common type of polynomial algorithms are quadratic. Commonly occurs with nest loops or recursive
+            calls. 
+            
+    6.1.5 - More Analyzing Complexity: Exponential algorithms are the most expensive type of algorithm. A common trait of these would be
+            functions that has multiple recursive calls of itself, such as Towers of Hanoi.
+            
+    6.1.6 - Recursion Complexity: It is important to look over what exact the code is looping through and how your input affects how many 
+            times it loops. Big Oh is used to compare efficieny of algorithms. The lower the order of growth, the better.
