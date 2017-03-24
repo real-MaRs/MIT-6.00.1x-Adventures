@@ -35,3 +35,10 @@ Week 6 - Algorithmic Complexity
             
     6.1.6 - Recursion Complexity: It is important to look over what exact the code is looping through and how your input affects how many 
             times it loops. Big Oh is used to compare efficieny of algorithms. The lower the order of growth, the better.
+
+
+#3/23/17
+
+6.2 - Searching and Sorting Algorithms
+
+  6.2.1 - Search Algorithms: 
