@@ -41,4 +41,17 @@ Week 6 - Algorithmic Complexity
 
 6.2 - Searching and Sorting Algorithms
 
-  6.2.1 - Search Algorithms: 
+  6.2.1 - Search Algorithms: They are algorithms for finding an item or group of items within a collection of items. There are different 
+          kinds of search algorithms. The linear search, also known as the brute force search, can search for an item in an unsorted list.
+          The bisection search is alot faster but the items must be in order.
+          
+  6.2.2 - Bisection Search: Only works on sorted elements. Check the middle of the list and check if the element is equal, greater, or smaller
+          and cut the list accordingly. The complexity is O(log n). It is better to sort and then search than to just search.
+          
+  6.2.3 - Bogo Sort: Randomly assigns elements in a list and check of they are in order, if they are not then they are randomly assigned
+          again. It is very inefficient and the complexity is O(?).
+          
+  6.2.4 - Bubble Sort: Compares consecutive pairs of elements and swaps the elements if the second is smaller than the first. When reach
+          end of list, go back to the start. Sorting stops when no more swaps have been made. The complexityt is O(n^2)
+          
+  6.2.5 - Selection Sort: 
