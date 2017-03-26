@@ -57,4 +57,5 @@ Week 6 - Algorithmic Complexity
   6.2.5 - Selection Sort: First step, you find the smallest element and swap it to index 0. At each subsequent step, get the smallest
           value in the remaining sublist and swap it with the element at index 1. The left side of the list will be sorted.
           
-  6.2.6 - Merge Sort: 
+  6.2.6 - Merge Sort: Uses the divide and conquer approach. Splits the list in half, sorts it, and merges the lists together.
+          The complexity is O(n log n). O(n log n) is the fastest a sorting algorithm can be.
