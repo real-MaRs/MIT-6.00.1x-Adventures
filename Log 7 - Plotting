@@ -7,4 +7,10 @@ Week 7 - Plotting
 
   7.1 - Plotting
   
+    7.1.1 - Pylab: Learn how to use existing libraries to help us examine algorithms and data. import pylab as plt gives access
+            to graphing/plotting procedures. To generate a plot, use the .plot method. plt.plot(list1, list2); lists must be 
+            the same length.
+            
+    7.1.2 - Plots: 
+  
     
