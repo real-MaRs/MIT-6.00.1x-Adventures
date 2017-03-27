@@ -11,6 +11,13 @@ Week 7 - Plotting
             to graphing/plotting procedures. To generate a plot, use the .plot method. plt.plot(list1, list2); lists must be 
             the same length.
             
-    7.1.2 - Plots: 
+    7.1.2 - Plots: Use the .figure method to generate different windows for different graphs. plt.figure(<arg>). If you just plot,
+            they will all be just in one graph. The arg in .figure is a string name of the graph.
+            
+    7.1.3 - Labels: Use the plt.xlabel("some string") and plt.ylabel("some string") to add names to the axises of the graph.
+            Use the figure method to reopen a new graph so that you can name different graphs. Use .clf to clear the window that is
+            currently being used. Use .title to make a title for the graph.
   
+    7.1.4 - Comparing Plots: You can compare graphs and plots, but what if the scales were different. You can set limits on them.
+            You can also plot multiple functions on the same display.
     
