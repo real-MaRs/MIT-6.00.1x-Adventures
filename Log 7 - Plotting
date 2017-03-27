@@ -19,5 +19,12 @@ Week 7 - Plotting
             currently being used. Use .title to make a title for the graph.
   
     7.1.4 - Comparing Plots: You can compare graphs and plots, but what if the scales were different. You can set limits on them.
-            You can also plot multiple functions on the same display.
+            You can also plot multiple functions on the same display. Use the .ylim(int, int) and .xlim(int, int) to set the range
+            on the y and x axis.
+            
+    7.1.5 - Display Details: We can change color and width of data sets. You can add linewidth and label in the .plot method.
+    
+    7.1.6 - An Example: How can we use data visualization help guide computation. Used example of how much money we would need to
+            save to retire at a certain age. We were able to see the change of the rate of growth as more money was saved each month.
+            
     
